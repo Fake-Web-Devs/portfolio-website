@@ -4,6 +4,7 @@
     width: 100%;
     height: 100px;
     color: rgba(255, 234, 219, 1);
+    padding-top: 30px;
     
     .wrapper{
         padding: 10px 30px;
@@ -11,10 +12,10 @@
         justify-content: space-between;
         margin-left: 60px;
         margin-right: 60px;
+        height: 90px;
 
         .left{
             display: flex;
-            padding-top: 30px;
             font-size: 20px;
             column-gap: 20px;
             justify-content: space-between;
@@ -24,6 +25,7 @@
             .name {
                 padding-top: 4px;
             }
+            align-items: center;
         }
 
         .right{
@@ -34,10 +36,10 @@
             justify-content: space-between;
 
             .wrapper{
-                justify-content: space-between;
+                align-items: center;
+
                 h3{
                     font-size: 25px;
-                    padding-top: 15px;
                     justify-content: center;
                     text-decoration: none;
                     
@@ -50,6 +52,12 @@
                 }
                 a:hover {
                     background-color: paleturquoise;
+                }
+            }
+
+            .wrapper:hover {
+                h3 {
+                    padding-right: 30px;
                 }
             }
         }
