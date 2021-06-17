@@ -13,9 +13,11 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        YOUR NAME
-                    </Link>
+                    <div className='navbar-logo'>
+                        <Link to='/'  className='navbar-logo-link' onClick={closeMobileMenu}>
+                            YOUR NAME
+                        </Link>
+                    </div>
                     <div className='menu-icon' onClick={handleClick} >
                         {click ? <FaTimes /> : <FaBars />}
                     </div>

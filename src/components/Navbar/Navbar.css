@@ -1,36 +1,36 @@
 .navbar {
-  /* background: rgba(99, 115, 115, 1);
-  height: 50px; */
   background: transparent;
   display: flex;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  margin:-20px;
-  overflow: scroll;
 }
 
 .navbar-container {
+  position: fixed ;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50px;
+  top: 2vh;
+  z-index: 999;
 }
 
 .navbar-logo {
+  flex-grow: 1;
+  cursor: default;
+}
+
+.navbar-logo-link {
   color: rgba(255, 234, 219, 1);
   letter-spacing: 0.5px;
-  margin-left: 3rem;
-  cursor: pointer;
+  margin-left: 4rem;
+  width: max-content;
   text-decoration: none;
   font-size: 1rem;
   display: block;
   font-family: 'Kanit', sans-serif;
   font-weight: 800;
-  flex-grow: 1;
+  cursor: pointer;
 }
 
 .nav-menu {
@@ -75,10 +75,11 @@
 
   .nav-menu {
     display: flex;
+    position: absolute;
     flex-direction: column;
     width: 100%;
-    position: absolute;
     top: 80px;
+    left: 0;
     opacity: 0;
     transition: all 0.5s ease;
   }
@@ -88,7 +89,6 @@
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: 1;
   }
 
   .nav-links {
@@ -106,18 +106,18 @@
 
   .navbar-logo {
     position: absolute;
-    top: 22px;
     left: 0;
-    transform: translate(25%, 50%);
+    margin-left: -1rem;
+    margin-top: 1rem;
   }
 
   .menu-icon {
     display: block;
     position: absolute;
-    top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-right: 2.5rem;
+    font-size: 1.6rem;
     cursor: pointer;
   }
 }
