@@ -7,7 +7,9 @@ import Home from './components/Pages/Home';
 import Aboutme from './components/about/Aboutme';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer'
-import Testimonial from './components/testimonial/Testimonial';
+import Testimonial from '../src/Pages/testimonial/Testimonial';
+import Projects from './Pages/projects/Projects';
+import Skills from './Pages/skills/Skills';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Route path='/about' exact component={Aboutme} />
           <Route path='/contact' exact component={Contact} />
           <Route path='/testimonial' exact component={Testimonial} />
+          <Route path='/skills' exact component={Skills}/>
         </Switch>
         {/* <Footer /> */}
       </Router> 
