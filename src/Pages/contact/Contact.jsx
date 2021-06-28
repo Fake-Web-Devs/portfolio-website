@@ -94,7 +94,6 @@ export default function Contact() {
                         </div>
                         <a href="https://www.instagram.com/yuxuanthng/" rel="noreferrer" target="_blank" className="link">@yuxuanthng</a>
                     </div>
-                </div>
                 </FadeIn>
             </div>
                 <div className="right">
