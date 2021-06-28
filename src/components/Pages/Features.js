@@ -25,6 +25,11 @@ function FeatureItems() {
                 onSwiper={(swiper) => console.log(swiper)}
                 >       
                     <SwiperSlide className='feat-items'>
+                        <Link to='/blog' className='feat-link'>
+                            PROJECTS
+                        </Link>
+                    </SwiperSlide>
+                    <SwiperSlide className='feat-items'>
                         <Link to='/workexp' className='feat-link'>
                             WORK EXPERIENCE
                         </Link>
@@ -42,11 +47,6 @@ function FeatureItems() {
                     <SwiperSlide className='feat-items'>
                         <Link to='/awards' className='feat-link'>
                             AWARDS
-                        </Link>
-                    </SwiperSlide>
-                    <SwiperSlide className='feat-items'>
-                        <Link to='/blog' className='feat-link'>
-                            BLOG
                         </Link>
                     </SwiperSlide>
                 </Swiper>       

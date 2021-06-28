@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+p {
+  margin-bottom: 20px;
+  font-family: Heebo;
+  font-weight: 400;
+  font-size: large;
+  color: rgba(255, 234, 219, 0.685);
+}
+
+div {
+  color: rgba(255, 234, 219, 1);
+}
+
 body {
   background-color: rgba(99, 115, 115, 1);
 }

@@ -100,6 +100,7 @@ export default function Contact() {
                             <InstagramIcon />
                         </div>
                     </div>
+                </div>
                 </FadeIn>
             </div>
             <div className="right">

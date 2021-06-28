@@ -16,11 +16,7 @@ export default function About() {
             <div className="bottom">
                 <div className="left">
                     <div className="wrapper" id="wrapper">
-                        <h3>I am a computer engineering student at National University of Singapore. I love hands-on learning and making things work.
-                            Currently interested in F1. Experience in computer hardware languages such as Verilog,
-                            Arm Assembly, real time operating systems, as well as coding languages like C/C++, Java,
-                            Javascript.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo quis imperdiet massa tincidunt. Id venenatis a condimentum vitae sapien pellentesque. Arcu dictum varius duis at consectetur lorem donec massa sapien. Egestas diam in arcu cursus euismod quis viverra. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Nunc sed id semper risus in. Eget magna fermentum iaculis eu non diam phasellus. Diam quis enim lobortis scelerisque fermentum dui. Neque sodales ut etiam sit amet nisl. Amet aliquam id diam maecenas.</h3>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
                     </div>       
                 </div>
                 <div className="right">
