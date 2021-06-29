@@ -25,27 +25,22 @@ function FeatureItems() {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         >       
-          <SwiperSlide className='feat-items'>
-            <Link to='/blog' className='feat-link'>
-                PROJECTS
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide className='feat-items'>
+          <SwiperSlide className='feat-items' data-hash="1">
             <Link to='/workexp' className='feat-link'>
                 WORK EXPERIENCE
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='feat-items'>
+          <SwiperSlide className='feat-items' data-hash="2">
             <Link to='/skills' className='feat-link'>
                 SKILLS
             </Link> 
           </SwiperSlide>
-          <SwiperSlide className='feat-items'>
+          <SwiperSlide className='feat-items' data-hash="3">
             <Link to='/testimonials' className='feat-link'>
                 TESTIMONIALS
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='feat-items'>
+          <SwiperSlide className='feat-items' data-hash="4">
             <Link to='/awards' className='feat-link'>
                 AWARDS
             </Link>
@@ -73,9 +68,6 @@ function FeatureItems() {
           </SwiperSlide>
           <SwiperSlide>
               <img className="slider-img" data-hash="4" src="https://swiperjs.com/demos/images/nature-4.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-              <img className="slider-img" data-hash="5" src="https://swiperjs.com/demos/images/nature-5.jpg" />
           </SwiperSlide>
         </Swiper>  
       </div>
