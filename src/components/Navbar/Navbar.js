@@ -13,31 +13,28 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        YOUR NAME
-                    </Link>
+                    <div className='navbar-logo'>
+                        <Link to='/'  className='navbar-logo-link' onClick={closeMobileMenu}>
+                            YOUR NAME
+                        </Link>
+                    </div>
                     <div className='menu-icon' onClick={handleClick} >
                         {click ? <FaTimes /> : <FaBars />}
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
-                                Projects
+                                PROJECTS
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                                About
+                                ABOUT
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-                                Contact
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/blog' className='nav-links' onClick={closeMobileMenu}>
-                                Blog
+                                CONTACT
                             </Link>
                         </li>
                     </ul>
